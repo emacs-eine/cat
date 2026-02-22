@@ -8,7 +8,16 @@
 
 Here is the basic usage of this tool:
 
-WIP
+```console
+USAGE: cat [COMMAND] [OPTIONS]
+
+View files with syntax highlighting
+
+OPTIONS:
+
+ --help, -h            Show usage information and exit
+ --number, -n          Display with line numbers.
+```
 
 ## 💾 Installation
 
@@ -28,7 +37,9 @@ eask install -g cat
 
 ## 🔧 Usage
 
-WIP.
+```console
+eask -g exec cat [FILES..] [OPTIONS..]
+```
 
 ## 🛠️ Contribute
 
