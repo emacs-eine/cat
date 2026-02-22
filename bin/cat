@@ -37,5 +37,21 @@
 (require 'cat)
 (require 'commander)
 
+(defun cat-cli--set-number ()
+  "Display with line numbers."
+  (setq cat--set-number t))
+
+(defun cat-cli--run (&rest args)
+  "The program entry."
+  (apply #'cat-run args))
+
+(commander
+ (name "cat")
+ (description "View files with syntax highlighting")
+ (default cat-cli--run)
+ (option "--help, -h" "Show usage information and exit" commander-print-usage-and-exit)
+
+ (option "--number, -n"
+         cat-cli--set-number))
 
 ;;; cat ends here
