@@ -1,5 +1,5 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![JCS-ELPA](https://raw.githubusercontent.com/jcs-emacs/badges/master/elpa/v/cat.svg)](https://jcs-emacs.github.io/jcs-elpa/#/cat)
+[![EINE Elpa](https://raw.githubusercontent.com/emacs-eine/badges/main/elpa/v/cat.svg)](https://emacs-eine.github.io/elpa/#/cat)
 
 # cat
 > View files with syntax highlighting
