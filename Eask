@@ -20,3 +20,4 @@
 (depends-on "e2ansi")
 (depends-on "commander")
 (depends-on "msgu")
+(depends-on "elenv")
